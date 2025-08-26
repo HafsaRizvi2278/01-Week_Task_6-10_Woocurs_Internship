@@ -7,11 +7,9 @@ import { db } from "./firebase"; // Firebase config
 import Home from "./components/Home";
 import Registration from "./components/Registration";
 import About from "./components/About";
+import UserList from "./components/UserList.jsx"; // <-- import UserList
 
 function App() {
-  // 🔥 Quick Firebase check in console
-//  console.log("Firebase App:", app);
-
   return (
     <div className="App">
       <Router>
@@ -19,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/about" element={<About />} />
+          <Route path="/users" element={<UserList />} /> {/* <-- add route */}
         </Routes>
       </Router>
     </div>
