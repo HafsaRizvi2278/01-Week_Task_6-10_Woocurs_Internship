@@ -1,70 +1,102 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple **Restaurant Menu Web Application** built with **REACT, Bootstrap, and FIREBASE**.  
+This project was developed as part of an internship task to practice **front-end design, form validation, GitHub workflow, and project documentation**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎥 Demo Recording  
+👉 [Watch the Demo] (./demo/RestaurantMenuApp MD.mp4)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Project Structure
 
-### `npm test`
+restaurant-menu-app/  
+├── public/  
+│   ├── index.html  
+│   └── favicon.ico  
+├── src/  
+│   ├── components/  
+│   │   ├── Home.jsx  
+│   │   ├── Registration.jsx  
+│   │   └── About.jsx  
+│   ├── firebase.js        # Firebase configuration  
+│   ├── App.js             # Main App component  
+│   └── index.js           # Entry point (ReactDOM render)  
+├── package.json  
+└── README.md  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 📖 Project Progress Log – Restaurant Menu App (React + Firebase)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This document tracks the daily deliverables and milestones completed during the development of the **Restaurant Menu App**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+# TASK_6
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📌 Deliverables (End of Day 1)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✅ React project created and running  
+✅ Screens: Home, Registration, About implemented  
+✅ Firebase initialized  
+✅ GitHub repo updated  
+✅ Google Sheet updated  
+✅ Recording link shared  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# TASK_7
 
-## Learn More
+## 📌 Deliverables (End of Day 2)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✅ Registration form connected to Firebase Firestore  
+✅ Real-time validation implemented  
+✅ Submitted entries appear in Firestore  
+✅ GitHub repo updated  
+✅ Google Sheet updated  
+✅ Recording link shared  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+# TASK_8
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📌 Deliverables (End of Day 3)
 
-### Analyzing the Bundle Size
+✅ Registered users displayed dynamically in table or cards  
+✅ Search functionality working  
+✅ Table sorting working  
+✅ GitHub repo updated  
+✅ Google Sheet updated  
+✅ Recording link shared  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+# TASK_9
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📌 Deliverables (End of Day 4)
 
-### Advanced Configuration
+✅ Edit and Delete functionality working  
+✅ Confirmation modals implemented  
+✅ Table updates dynamically  
+✅ GitHub repo updated  
+✅ Google Sheet updated  
+✅ Recording link shared  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+# TASK_10
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📌 Deliverables (End of Day 5)
 
-### `npm run build` fails to minify
+✅ Mobile app screens finalized and tested  
+✅ Web app UI polished and responsive  
+✅ All functionalities tested (CRUD, search, sort, validation)  
+✅ Deployment live URL obtained (if applicable)  
+✅ GitHub repo updated  
+✅ Google Sheet updated  
+✅ Final recording link shared  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
